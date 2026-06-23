@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap");
+
+
+
+.pw-header {
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.pw-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1265px;
+    margin: 0 auto;
+    padding: 10px 32px;
+    gap: 24px;
+}
+
+.pw-logo-link {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.pw-logo {
+    width: 160px;
+    height: auto;
+    display: block;
+}
+
+.pw-nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.pw-nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 28px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pw-nav-link {
+    color: #333333;
+    text-decoration: none;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.pw-nav-link:hover {
+    color: #27ae60;
+    text-decoration: none;
+}
+
+.pw-contact-btn {
+    background-color: #27ae60;
+    color: #ffffff !important;
+    padding: 14px 26px;
+    text-decoration: none;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    flex-shrink: 0;
+    display: inline-block;
+    transition: background-color 0.15s ease;
+}
+
+.pw-contact-btn:hover {
+    background-color: #219a52;
+    text-decoration: none;
+}
+
+.md-header__inner {
+    display: none;
+}
+
+.md-header {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.md-tabs {
+    background-color: #27ae60;
+}
+
+.md-tabs__link {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+    color: #ffffff;
+    opacity: 0.85;
+}
