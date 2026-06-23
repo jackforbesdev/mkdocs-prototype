@@ -7,7 +7,6 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.instant
-    - navigation.sections
     - navigation.path
     - navigation.indexes
 extra_css:
@@ -26,5 +25,56 @@ nav:
       - Advanced Guides:
         - Advanced Guide 1: phonetools/advanced-guide-1.md
         - Advanced Guide 2: phonetools/advanced-guide-2.md
-  - Addresstools: 
-      - Getting Started: addresstools/index.md
+  - AddressTools:
+      - Overview: addresstools/index.md
+      - Installation Guides:
+          - AddressTools Premium:
+              - Installation Walkthrough: "addresstools/installation-guides/addresstools premium/index.md"
+              - First-time Initialization:
+                  - Granting Permissions to Users: "addresstools/installation-guides/addresstools premium/granting-permissions.md"
+                  - Create an Authentication Token: "addresstools/installation-guides/addresstools premium/create-auth-token.md"
+                  - First-time Data Installation: "addresstools/installation-guides/addresstools premium/first-time-data-installation.md"
+                  - Install a Default Country (Optional): "addresstools/installation-guides/addresstools premium/install-default-country.md"
+                  - Trigger Creation and Enablement: "addresstools/installation-guides/addresstools premium/trigger-creation-and-enablement.md"
+              - Address Block Management:
+                  - Binding a New Address Block: "addresstools/installation-guides/addresstools premium/binding-new-address-block.md"
+              - Validation Rules:
+                  - Understanding Validation Rules: "addresstools/installation-guides/addresstools premium/understanding-validation-rules.md"
+                  - Configure Country-Specific Settings: "addresstools/installation-guides/addresstools premium/configure-country-validation.md"
+                  - Configure Validation Rules for an Address Block: "addresstools/installation-guides/addresstools premium/configure-address-block-validation.md"
+                  - Turn on Validation Rules: "addresstools/installation-guides/addresstools premium/turn-on-validation-rules.md"
+              - Standardization:
+                  - Understanding Standardization: "addresstools/installation-guides/addresstools premium/understanding-standardization.md"
+                  - Configure Country Standardization: "addresstools/installation-guides/addresstools premium/configure-country-standardization.md"
+                  - Configure State Standardization: "addresstools/installation-guides/addresstools premium/configure-state-standardization.md"
+                  - Turn on Standardization: "addresstools/installation-guides/addresstools premium/turn-on-standardization.md"
+              - Verification:
+                  - Understanding Address Verification: "addresstools/installation-guides/addresstools premium/understanding-verification.md"
+                  - Creating Additional Fields for Verification: "addresstools/installation-guides/addresstools premium/creating-additional-fields-verification.md"
+                  - Configure Address Verification for an Address Block: "addresstools/installation-guides/addresstools premium/configure-address-block-verification.md"
+                  - Configure Address Verification Settings: "addresstools/installation-guides/addresstools premium/configure-verification-settings.md"
+                  - Configure Geocoding: "addresstools/installation-guides/addresstools premium/configure-geocoding.md"
+                  - Turn on Address Verification: "addresstools/installation-guides/addresstools premium/turn-on-verification.md"
+                  - Scheduled Batch Address Verification: "addresstools/installation-guides/addresstools premium/scheduled-batch-verification.md"
+                  - Address Verification via Record-Triggered Flow: "addresstools/installation-guides/addresstools premium/record-triggered-flow-verification.md"
+              - Lookup Field Population:
+                  - Understanding Lookup Field Functionality: "addresstools/installation-guides/addresstools premium/understanding-lookup-fields.md"
+                  - Create Lookup Fields for an Address Block: "addresstools/installation-guides/addresstools premium/create-lookup-fields.md"
+                  - Turn on Lookup Field Population: "addresstools/installation-guides/addresstools premium/turn-on-lookup-field-population.md"
+              - QuickComplete Country:
+                  - Understanding QuickComplete Country: "addresstools/installation-guides/addresstools premium/understanding-quickcomplete-country.md"
+                  - Install a Default Country and Enable QuickComplete: "addresstools/installation-guides/addresstools premium/install-default-country-quickcomplete.md"
+              - ZIP Code Lookup (US only):
+                  - Understanding ZIP Code Lookup: "addresstools/installation-guides/addresstools premium/understanding-zip-code-lookup.md"
+                  - Turn on ZIP Code Lookup: "addresstools/installation-guides/addresstools premium/turn-on-zip-code-lookup.md"
+              - Interactive Functionality:
+                  - Understanding the Override Lightning Component: "addresstools/installation-guides/addresstools premium/understanding-override-component.md"
+                  - Enable the AddressTools Override: "addresstools/installation-guides/addresstools premium/enable-addresstools-override.md"
+                  - Understanding the Record Page Component: "addresstools/installation-guides/addresstools premium/understanding-record-page-component.md"
+                  - Add the Record Page Component to a Lightning Record Page: "addresstools/installation-guides/addresstools premium/add-record-page-component.md"
+              - Deployment:
+                  - Deploying AddressTools to Users: "addresstools/installation-guides/addresstools premium/deploying-to-users.md"
+              - How to Purchase:
+                  - Purchase a New Subscription: "addresstools/installation-guides/addresstools premium/purchase-new-subscription.md"
+                  - Purchase Address Verification Credits: "addresstools/installation-guides/addresstools premium/purchase-verification-credits.md"
+                  - Purchase Additional Seats: "addresstools/installation-guides/addresstools premium/purchase-additional-seats.md"
