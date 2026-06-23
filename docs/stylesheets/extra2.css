@@ -1,0 +1,15 @@
+.md-header {
+    background-color: #27ae60;
+    color: #333333;
+}
+
+.md-header__title,
+.md-header__topic {
+    color: #000000;
+}
+
+.md-tabs {
+    background-color: #27ae60;
+    color: #333333;
+    font-weight: bold;
+}
