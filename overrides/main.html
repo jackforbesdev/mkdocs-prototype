@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block htmltitle %} 
+    <title>Provenworks Support</title>
+{% endblock %}
+
+{% block header %}
+<div class="pw-header">
+    <div class="pw-header-inner">
+        <a href="https://provenworks.com/" class="pw-logo-link">
+            <img
+                src="{{ base_url }}/Images/pw-logo-green.png"
+                alt="ProvenWorks Logo"
+                class="pw-logo"
+                width="160"
+                height="31"
+            >
+        </a>
+        <nav class="pw-nav" aria-label="Main navigation">
+            <ul class="pw-nav-list">
+                <li><a href="https://provenworks.com/products/" class="pw-nav-link">Products</a></li>
+                <li><a href="https://provenworks.com/industry/" class="pw-nav-link">Industries</a></li>
+                <li><a href="{{ base_url }}/" class="pw-nav-link">Support</a></li>
+                <li><a href="https://provenworks.com/blog/" class="pw-nav-link">Blog</a></li>
+                <li><a href="https://provenworks.com/about-us/" class="pw-nav-link">About Us</a></li>
+                <li><a href="https://provenworks.com/careers/" class="pw-nav-link">Careers</a></li>
+            </ul>
+        </nav>
+        <a href="https://provenworks.com/contact" class="pw-contact-btn">Contact us</a>
+    </div>
+</div>
+{{ super() }}
+{% endblock %}

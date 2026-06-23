@@ -1,0 +1,30 @@
+site_name: My Docs
+site_url: https://support.provenworks.com/
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - blog
+
+nav:
+  - Home: index.md
+  - Phonetools: 
+      - Getting Started: 
+        - phonetools/index.md
+        - User Guide: phonetools/user-guide.md
+      - Advanced Guides:
+        - Advanced Guide 1: phonetools/advanced-guide-1.md
+        - Advanced Guide 2: phonetools/advanced-guide-2.md
+  - Addresstools: 
+      - Getting Started: addresstools/index.md
